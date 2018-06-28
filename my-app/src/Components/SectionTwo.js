@@ -16,8 +16,8 @@ class SectionTwo extends Component {
 
 	handleSubmit = e => {
 		e.preventDefault();
-
-		alert("Form is submitted..");
+    alert("Form is submitted..");
+    window.location.assign("/SectionThree");
   };
   
   isSubmitDisabled = errors => {

@@ -34,6 +34,7 @@ class SectionOne extends Component {
   handleSubmit = e => {
     e.preventDefault();
     alert("Form is submitted..");
+    window.location.assign("/SectionTwo")
     
   };
 

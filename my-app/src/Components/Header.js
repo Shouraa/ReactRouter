@@ -20,10 +20,10 @@ const Header = () => {
             <h1>Let's Talk</h1>
             <h3>Think you have what it takes? Show us.</h3>
             </div>
-            <ul className="navLinks">
-                <li><NavLink exact activeStyle ={{color:'orange'}} to="/">SectionOne</NavLink></li>
-                <li><NavLink exact activeStyle ={{color:'orange'}} to="/SectionTwo">SectionTwo</NavLink></li>
-                <li><NavLink exact activeStyle ={{color:'orange'}} to="/SectionThree">SectionThree</NavLink></li>
+            <ul>
+                <li><NavLink exact activeStyle ={{color:'white'}} to="/">Personal</NavLink></li>
+                <li><NavLink exact activeStyle ={{color:'white'}} to="/SectionTwo">Skills</NavLink></li>
+                <li><NavLink exact activeStyle ={{color:'white'}} to="/SectionThree">Portfolio</NavLink></li>
             </ul>
 
           <Switch>
