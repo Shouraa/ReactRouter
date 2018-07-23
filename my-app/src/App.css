@@ -1,165 +1,164 @@
 .App {
-	background-color: #454d56;
-	color: white;
-	width: 70%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  background-color: #454d56;
+  color: white;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
-  	text-align: center;
-
+  text-align: center;
 }
 .title h1 {
-  	margin-bottom: 10px;
-	font-size: 3.5rem;
-
+  margin-bottom: 10px;
+  font-size: 3.5rem;
 }
 
 .title h3 {
-  	margin-top: 15px;
-	color: #ced0d3;
-	font-size: 1.4rem;
-	font-weight: lighter;
+  margin-top: 15px;
+  color: #ced0d3;
+  font-size: 1.4rem;
+  font-weight: lighter;
 }
 
 .navLinks {
-  	text-decoration: none;
+  text-decoration: none;
 }
- 
+
 .user_info h4 {
-	font-size: 25px;
-	border-bottom: solid 2px #00b1f2;
-	color: white;
-	padding-bottom: 20px;
-	text-align: left;
+  font-size: 25px;
+  border-bottom: solid 2px #00b1f2;
+  color: white;
+  padding-bottom: 20px;
+  text-align: left;
 }
 
 .flex-box {
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
-	flex-flow: row wrap;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .container h5 {
-	color: #ced0d3;
-	font-size: 20px;
-	margin-bottom: 15px;
-	font-weight: bold;
-	text-align: left;
+  color: #ced0d3;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: left;
 }
 
 .flex-75 {
-	width: 73%;
+  width: 73%;
 }
 
 .flex-25 {
-	width: 23%;
+  width: 23%;
 }
 
 .flex-100 {
-	width: 100%;
-	margin-top: 30px;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .flex-box input {
-	width: 100%;
-	color: white;
-	padding-left: 15px;
-	background-color: #454d56;
-	border-top: 1px solid #454d56;
-	border-right: 1px solid #454d56;
-	border-bottom: 1px solid white;
-	border-left: 1px solid #454d56;
-	height: 40px;
-	margin-bottom: 15px;
-	font-size: 20px;
+  width: 100%;
+  color: white;
+  padding-left: 15px;
+  background-color: #454d56;
+  border-top: 1px solid #454d56;
+  border-right: 1px solid #454d56;
+  border-bottom: 1px solid white;
+  border-left: 1px solid #454d56;
+  height: 40px;
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 
-input[type="text"].invalid, input[type="email"].invalid {
-	border-bottom: solid 1px red;
+input[type="text"].invalid,
+input[type="email"].invalid {
+  border-bottom: solid 1px red;
 }
 
 .flex-box textarea {
-	width: 99%;
-	color: white;
-	background-color: #454d56;
-	border-top: 1px solid #454d56;
-	border-right: 1px solid #454d56;
-	border-bottom: 1px solid white;
-	border-left: 1px solid #454d56;
-	height: 40px;
-	margin-top: 25px;
-	margin-bottom: 15px;
-	font-size: 20px;
-	font-family: inherit;
+  width: 99%;
+  color: white;
+  background-color: #454d56;
+  border-top: 1px solid #454d56;
+  border-right: 1px solid #454d56;
+  border-bottom: 1px solid white;
+  border-left: 1px solid #454d56;
+  height: 40px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-family: inherit;
 }
 
 .grid-container {
-	display: grid;
-	grid-gap: 10px;
-	background-color: green;
+  display: grid;
+  grid-gap: 10px;
+  background-color: green;
 }
 
 .btn {
-	width: 100%;
-	color:white;
-	border: 1px solid white;
-	background-color: #454d56;
-	height: 65px;
-	font-size: 20px;
-	/* cursor: not-allowed; */
+  width: 100%;
+  color: white;
+  border: 1px solid white;
+  background-color: #454d56;
+  height: 65px;
+  font-size: 20px;
+  /* cursor: not-allowed; */
 }
 
 .btn:hover {
-    background-color: #00B2F0;
-	border-color: #00B2F0;
-	color: white;
-	cursor: pointer;
+  background-color: #00b2f0;
+  border-color: #00b2f0;
+  color: white;
+  cursor: pointer;
 }
 
 #wrap {
-	width: 100%;
-	margin-top: 20px;
+  width: 100%;
+  margin-top: 20px;
 }
 
 #wrap .left {
-	width: 52%;
-	float: left;
-	height: 500px;
-	margin-bottom: 30px;
+  width: 52%;
+  float: left;
+  height: 500px;
+  margin-bottom: 30px;
 }
 
 #wrap .right {
-	width: 48%;
-	float: right;
-	height: 500px;
-	margin-bottom: 30px;
+  width: 48%;
+  float: right;
+  height: 500px;
+  margin-bottom: 30px;
 }
 
-#wrap h1{
-	color: white;
+#wrap h1 {
+  color: white;
 }
 
-.right_chcbox p  {
-	color: #ced0d3;
-	margin-top: 10px;
-	line-height: 1.4;
-	font-weight: normal;
+.right_chcbox p {
+  color: #ced0d3;
+  margin-top: 10px;
+  line-height: 1.4;
+  font-weight: normal;
 }
 
 .checkbox {
-	display: block;
-	position: relative;
-	padding-left: 35px;
-	margin-bottom: 12px;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: bold;
-	color: #ced0d3;
-	margin-bottom: 20px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ced0d3;
+  margin-bottom: 20px;
 }
 
 /* .checkbox  {
@@ -169,111 +168,108 @@ input[type="text"].invalid, input[type="email"].invalid {
 } */
 
 .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 22px;
-    width: 22px;
-    background-color: transparent;
-	border: 1px solid #ced0d3;
-	margin-bottom: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: transparent;
+  border: 1px solid #ced0d3;
+  margin-bottom: 3px;
 }
 
 .checkbox:hover input ~ .checkmark {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
 .checkbox input:checked ~ .checkmark {
-    background-color: #00B2F0;
+  background-color: #00b2f0;
 }
 
 .left_chcbox {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
 .right_chcbox {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
 .portfolio textarea {
-	width: 99%;
-	color: white;
-	background-color: #454d56;
-	border: 1px solid white;
-	height: 120px;
-	margin-top: 25px;
-	margin-bottom: 85px;
-	font-size: 20px;
-	font-family: inherit;
+  width: 99%;
+  color: white;
+  background-color: #454d56;
+  border: 1px solid white;
+  height: 120px;
+  margin-top: 25px;
+  margin-bottom: 85px;
+  font-size: 20px;
+  font-family: inherit;
 }
-
-
 
 input[type="radio"] {
-	background: transparent;
-	border: 1px solid #ccc;
-	opacity:0.011;
-	z-index:10;
-	margin:0px;
-}
-	
-input[type="radio"]:checked + label {
-	background:#1cb2e4;
-	border: 0px;
-	margin:0px;
-}
-	
-input[type="radio"]:hover + label {
-	background:#1cb2e4;
-	border: 0px;
-	margin:0px;
-	cursor: pointer;
+  background: transparent;
+  border: 1px solid #ccc;
+  opacity: 0.011;
+  z-index: 10;
+  margin: 0px;
 }
 
+input[type="radio"]:checked + label {
+  background: #1cb2e4;
+  border: 0px;
+  margin: 0px;
+}
+
+input[type="radio"]:hover + label {
+  background: #1cb2e4;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
 
 .checkbox input {
-    position: absolute;
-    opacity: 0;
-	cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .label {
-	width:25%;
-	color:white;
-	padding:10px;
-	margin:0px;
-	background: transparent;
-	border: 1px solid #ccc;
-	text-align: center;
+  width: 25%;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  background: transparent;
+  border: 1px solid #ccc;
+  text-align: center;
 }
 
 .err-msg {
-	color: red;
+  color: red;
 }
 
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	margin-top: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 30px;
 }
 
 li {
-	float: left;
+  float: left;
 }
 
 li a {
-	display: block;
-	color: white;
-	text-align: center;
-	text-decoration: none;
-	padding: 15px 20px;
-	font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-weight: bold;
 }
 
 li a:hover {
-	background-color: #1cb2e4;
+  background-color: #1cb2e4;
 }
 
 /* .footertxt {
