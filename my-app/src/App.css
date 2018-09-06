@@ -22,8 +22,31 @@
   font-weight: lighter;
 }
 
-.navLinks {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
   text-decoration: none;
+  padding: 15px 20px;
+  border: solid white 1px;
+  margin: 2px;
+  width: 100px;
+}
+
+li a:hover {
+  background-color: #1cb2e4;
 }
 
 .user_info h4 {
@@ -109,7 +132,6 @@ input[type="email"].invalid {
   background-color: #454d56;
   height: 65px;
   font-size: 20px;
-  /* cursor: not-allowed; */
 }
 
 .btn:hover {
@@ -160,12 +182,6 @@ input[type="email"].invalid {
   color: #ced0d3;
   margin-bottom: 20px;
 }
-
-/* .checkbox  {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-} */
 
 .checkmark {
   position: absolute;
@@ -247,31 +263,9 @@ input[type="radio"]:hover + label {
   color: red;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  margin-top: 30px;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
+.footertxt {
+  color: #8b8b8b;
+  font-size: 14px;
+  padding-bottom: 10px;
   text-align: center;
-  text-decoration: none;
-  padding: 15px 20px;
-  font-weight: bold;
 }
-
-li a:hover {
-  background-color: #1cb2e4;
-}
-
-/* .footertxt {
-	
-} */

@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
 	BrowserRouter as Router,
 	Route,
 	NavLink,
-	Redirect,
-	Prompt,
 	Switch
 } from 'react-router-dom';
 
@@ -21,17 +19,17 @@ const Header = () => {
 					<h3>Think you have what it takes? Show us.</h3>
 				</div>
 				<ul>
-					<li>
+					<li className="navTabs">
 						<NavLink exact activeStyle={{ color: 'white' }} to="/">
 							Personal
 						</NavLink>
 					</li>
-					<li>
+					<li className="navTabs">
 						<NavLink exact activeStyle={{ color: 'white' }} to="/SectionTwo">
 							Skills
 						</NavLink>
 					</li>
-					<li>
+					<li className="navTabs">
 						<NavLink exact activeStyle={{ color: 'white' }} to="/SectionThree">
 							Portfolio
 						</NavLink>

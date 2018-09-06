@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Footer = () => {
 	return (
 		<div>
-			<h5 className="footertxt">All rights not reserved</h5>
+			<h5 className="footertxt">Copyright © Integrify, All rights reserved.</h5>
 		</div>
 	);
 };
