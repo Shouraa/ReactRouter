@@ -55,8 +55,6 @@ class SectionTwo extends Component {
 	};
 
 	render() {
-		// console.log(this.state.radiobtns);
-
 		const { left_chckboxes, right_chckboxes } = this.state;
 		const errors = this.validate(left_chckboxes, right_chckboxes);
 		return (
@@ -298,16 +296,19 @@ class SectionTwo extends Component {
 							)}
 						</div>
 					</div>
-					<button
-						id="submit"
-						className="btn"
-						type="submit"
-						name="submit"
-						onClick={this.handleSubmit}
-						disabled={this.isSubmitDisabled(errors)}
-					>
-						submit
-					</button>
+
+					<div className="flex-25">
+						<button
+							id="submit"
+							className="btn"
+							type="submit"
+							name="submit"
+							onClick={this.handleSubmit}
+							disabled={this.isSubmitDisabled(errors)}
+						>
+							submit
+						</button>
+					</div>
 				</div>
 			</form>
 		);

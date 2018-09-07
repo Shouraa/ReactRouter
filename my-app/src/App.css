@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 .App {
   background-color: #454d56;
   color: white;
@@ -36,13 +45,14 @@ li {
 
 li a {
   display: block;
+  font-size: 18px;
   color: white;
   text-align: center;
   text-decoration: none;
   padding: 15px 20px;
   border: solid white 1px;
   margin: 2px;
-  width: 100px;
+  width: 150px;
 }
 
 li a:hover {
@@ -123,6 +133,47 @@ input[type="email"].invalid {
   display: grid;
   grid-gap: 10px;
   background-color: green;
+}
+
+input[type="radio"] {
+  background: transparent;
+  border: 1px solid #ccc;
+  opacity: 0.011;
+  z-index: 10;
+  margin: 0px;
+}
+
+input[type="radio"]:checked + label {
+  background: #1cb2e4;
+  border: 0px;
+  margin: 0px;
+}
+
+input[type="radio"]:hover + label {
+  background: #1cb2e4;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.label {
+  width: 25%;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+  background: transparent;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.err-msg {
+  color: red;
 }
 
 .btn {
@@ -222,50 +273,10 @@ input[type="email"].invalid {
   font-family: inherit;
 }
 
-input[type="radio"] {
-  background: transparent;
-  border: 1px solid #ccc;
-  opacity: 0.011;
-  z-index: 10;
-  margin: 0px;
-}
-
-input[type="radio"]:checked + label {
-  background: #1cb2e4;
-  border: 0px;
-  margin: 0px;
-}
-
-input[type="radio"]:hover + label {
-  background: #1cb2e4;
-  border: 0px;
-  margin: 0px;
-  cursor: pointer;
-}
-
-.checkbox input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.label {
-  width: 25%;
-  color: white;
-  padding: 10px;
-  margin: 0px;
-  background: transparent;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-
-.err-msg {
-  color: red;
-}
-
 .footertxt {
   color: #8b8b8b;
   font-size: 14px;
   padding-bottom: 10px;
   text-align: center;
+  margin-top: 60px;
 }

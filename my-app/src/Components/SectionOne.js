@@ -61,12 +61,12 @@ class SectionOne extends Component {
 			phone: /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/.test(phone)
 				? ''
 				: 'you can have only numeric characters',
-			email: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+			email: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
 				email
 			)
 				? ''
 				: 'enter a valid email',
-			reemail: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
+			reemail: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(
 				reemail
 			)
 				? ''
@@ -119,7 +119,6 @@ class SectionOne extends Component {
 			zip,
 			how
 		);
-		// console.log(errors);
 		return (
 			<form className="user_info">
 				<header>
@@ -283,16 +282,18 @@ class SectionOne extends Component {
 							errors.how && <span className="err-msg">{errors.how}</span>}
 					</div>
 
-					<button
-						id="submit"
-						className="btn"
-						type="submit"
-						name="submit"
-						onClick={this.handleSubmit}
-						disabled={this.isSubmitDisabled(errors)}
-					>
-						submit
-					</button>
+					<div className="flex-25">
+						<button
+							id="submit"
+							className="btn"
+							type="submit"
+							name="submit"
+							onClick={this.handleSubmit}
+							disabled={this.isSubmitDisabled(errors)}
+						>
+							submit
+						</button>
+					</div>
 				</div>
 			</form>
 		);
